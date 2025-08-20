@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Administrador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HAVI</a></li>
+                <li><a href="courts.html">Canchas</a></li>
+            </ul>
+            <ul id="auth-links">
+                <li id="admin-dashboard-link"><a href="dashboard_admin.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Dashboard de Administrador</h1>
+        <section>
+            <h2>Peticiones de Pago Pendientes</h2>
+            <div id="pending-bookings-list"></div>
+        </section>
+        <section>
+            <h2>Registros de Dueños Pendientes</h2>
+            <div id="pending-owners-list"></div>
+        </section>
+    </main>
+
+    <script src="js/dashboard_admin.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

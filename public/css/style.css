@@ -1,0 +1,69 @@
+body {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.main-background {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.auth-background {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    max-width: 400px;
+    width: 100%;
+}
+
+.auth-form-container a {
+    color: #17a2b8;
+}
+
+.card.court-card {
+    background-color: #495057;
+    border: none;
+    color: #f8f9fa;
+}
+
+.card.court-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.form-control.bg-dark,
+.form-select.bg-dark {
+    color: #f8f9fa;
+    background-color: #343a40 !important;
+    border-color: #6c757d;
+}
+
+.form-control.bg-dark:focus,
+.form-select.bg-dark:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 0 0.25rem rgba(23, 162, 184, 0.25);
+}
