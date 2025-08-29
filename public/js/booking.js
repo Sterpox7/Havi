@@ -1,4 +1,4 @@
-// public/js/booking.js
+
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const courtId = urlParams.get('courtId');

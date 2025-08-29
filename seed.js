@@ -39,14 +39,14 @@ const courts = [
         name: 'Padel Club RT',
         address: 'Belgrano 555, Río Tercero',
         image: '/images/padel_club.jpg',
-        cost: 3500,
+        cost: 10000,
         duration: 60
     },
     {
         name: 'La Esquina Padel',
         address: 'Rivadavia 101, Río Tercero',
-        image: '/images/la_esquina_padel.jpg',
-        cost: 3200,
+        image: '/images/laesquinadelpadel.jpg',
+        cost: 12000,
         duration: 60
     }
 ];

@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
-    // socket
+    
     const socket = io();
 
-    // peticiones de reserva
+    
     socket.on('new_booking_request', (booking) => {
         
         console.log('Nueva reserva en tiempo real:', booking);
@@ -69,11 +69,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('pending-bookings').addEventListener('click', (e) => {
         if (e.target.classList.contains('accept-booking-btn')) {
             const bookingId = e.target.getAttribute('data-id');
-            // aceptar reserva
+        
             console.log('Aceptar reserva:', bookingId);
         } else if (e.target.classList.contains('deny-booking-btn')) {
             const bookingId = e.target.getAttribute('data-id');
-            // denegar reserva
+            
             console.log('Denegar reserva:', bookingId);
         }
     });

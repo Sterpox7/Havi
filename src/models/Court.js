@@ -23,4 +23,4 @@ const CourtSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Court', CourtSchema);
+module.exports = mongoose.model('Court', CourtSchema); 
